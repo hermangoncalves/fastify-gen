@@ -1,0 +1,14 @@
+.github-corner .octo-arm {
+    transform-origin: 130px 106px;
+  }
+  
+  .github-corner:hover .octo-arm {
+    animation: octo-wave 560ms ease-in-out infinite;
+  }
+  
+  @keyframes octo-wave {
+    0%, 100% { transform: rotate(0deg); }
+    20%, 60% { transform: rotate(-25deg); }
+    40%, 80% { transform: rotate(10deg); }
+  }
+  
