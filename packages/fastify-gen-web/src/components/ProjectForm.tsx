@@ -24,7 +24,7 @@ export const ProjectForm = () => {
 
   return (
     <div className="space-y-6">
-      <Card className="">
+      <Card>
         <CardHeader>
           <CardTitle className="text-slate-100 flex items-center gap-2">
             <div className="w-2 h-2 bg-primary rounded-full"></div>
@@ -39,7 +39,6 @@ export const ProjectForm = () => {
               onChange={(e) => {
                 handleNameChange(e.target.value);
               }}
-              id="email"
               type="text"
               placeholder="my-fastify-api"
             />
