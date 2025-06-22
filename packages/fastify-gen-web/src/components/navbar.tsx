@@ -10,7 +10,7 @@ export function Navbar() {
           </div>
           <div>
             <h1 className="text-xl font-bold text-slate-100">
-              Fastify Genrator
+              Fastify Generator
             </h1>
             <p className="text-slate-400 text-sm">
               Visual interface to generate Fastify projects
