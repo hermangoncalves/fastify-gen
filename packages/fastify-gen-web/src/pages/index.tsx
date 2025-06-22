@@ -9,12 +9,12 @@ export default function Index() {
       <Navbar />
       <main>
         <div className="container mx-auto">
-          <div className="mt-14 grid lg:grid-cols-2 gap-8">
-            <div className="flex flex-col space-y-4">
+          <div className="my-14 flex flex-col-reverse gap-8 lg:grid lg:grid-cols-2">
+            <div className="flex flex-col space-y-8">
               <ProjectForm />
-              <CommandGenerator />
+              <FileTree />
             </div>
-            <FileTree />
+            <CommandGenerator />
           </div>
         </div>
       </main>
